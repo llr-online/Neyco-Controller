@@ -188,7 +188,7 @@ About the code
 
 requirements
 ------------
-You need the pymodbus module to run this code. To use a virtualenv you need to type:
+You need the pymodbus module to run this code. To use a virtualenv you need to type::
 
      python3 -m venv venv
      source venv/bin/activate
@@ -247,7 +247,7 @@ Or send a up command and monitor the change of position and then stop::
      29.0
 
      
- Note that in this case the position accessed by get_position is not changed (it is also visible in the interface of the controler in position settings)::
+Note that in this case the position accessed by get_position is not changed (it is also visible in the interface of the controler in position settings)::
 
      prompt: get_position
      10.0
